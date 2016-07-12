@@ -1,0 +1,20 @@
+// Font Variables
+// Full list of font-family weights
+
+// Thin \ Thin-Italic
+// Light \ Light-Italic
+// Book \ Book-Italic
+// Bold \ Bold-Italic
+// Ultra-Bold \ Ultra-Bold-Italic
+
+// LatoBook
+$latoBook: 'LatoBook', helvetica, arial, sans-serif;
+
+// LatoSemiBold
+$latoBold: 'LatoBold', helvetica, arial, sans-serif;
+
+/* Global type styles */
+
+.primary-text {
+    font-family: $latoBold;
+}
