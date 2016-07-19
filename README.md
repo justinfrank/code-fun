@@ -7,8 +7,9 @@
 - git
 - grunt
 - sass
+- base project set up (@font-face, normalize, node, etc...)
 
-### Working time 
+### Working time
 
 ### ~ 3hrs
 
