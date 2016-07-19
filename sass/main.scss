@@ -1,2 +1,71 @@
 @import 'variables';
-@import 'normalize.scss';
+@import 'mixins';
+@import 'normalize';
+@import 'link';
+
+html {
+    background-color: darken($white, 5%);
+}
+
+.card {
+    width: 90%;
+    max-width: 340px;
+    display: block;
+    margin: auto;
+    border: 2px solid darken($white, 15%);
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: $white;
+
+    // transition for border color & box-shadow
+    @include transition(all .2s ease);
+
+    &:hover {
+        border: 2px solid darken($white, 18%);
+
+        // box-shadow mixin
+        @include box-shadow(0, 0, 8px, darken($white, 10%));
+    }
+}
+
+.img--article {
+    width: 100%;
+    display: block;
+    height: 195px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-bottom: 4px solid $jaffa;
+    margin-bottom: 30px;
+}
+
+.ucsb {
+    background-image: url(../img/ucsb.jpg);
+}
+
+// Retina Background Image 📱
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 144dpi) {
+    /* Retina-specific stuff here */
+    .ucsb {
+        background-image: url(../img/ucsb-2x.jpg);
+    }
+}
+
+// Article content styles
+
+.article--content {
+    width: 90%;
+    max-width: 262px;
+    margin: auto;
+}
+
+.post-date {
+    color: lighten($ship-grey, 35%);
+    font-family: $latoBold;
+    font-size: 14px;
+    letter-spacing: .1em;
+    margin-bottom: 10px;
+}

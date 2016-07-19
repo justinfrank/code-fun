@@ -80,3 +80,11 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+#####################################
+# Directories set by user
+#####################################
+
+resources
+card.psd

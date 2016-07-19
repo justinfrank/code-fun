@@ -13,8 +13,24 @@ $latoBook: 'LatoBook', helvetica, arial, sans-serif;
 // LatoSemiBold
 $latoBold: 'LatoBold', helvetica, arial, sans-serif;
 
+// merriweatherRegular
+$merriweatherRegular: 'MerriweatherRegular', gerogia, serif;
+
 /* Global type styles */
 
 .primary-text {
     font-family: $latoBold;
+}
+
+.tertiaryType {
+    font-family: $latoBook;
+    font-size: 21px;
+    color: $ship-grey;
+    margin-top: 0;
+}
+
+.copy {
+    font-family: $merriweatherRegular;
+    color: lighten($ship-grey, 15%);
+    font-size: 14px;
 }

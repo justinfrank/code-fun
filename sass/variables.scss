@@ -1,3 +1,12 @@
-@import 'font-face';
-@import 'type';
+@import 'variables/lato-font-face';
+@import 'variables/merriweather-font-face';
 
+
+// Colors
+
+$white: #fff;
+$jaffa: #DF7241;
+$ship-grey: #4D4D4E;
+
+
+@import 'variables/type';
