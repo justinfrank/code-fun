@@ -8,13 +8,13 @@
 // Ultra-Bold \ Ultra-Bold-Italic
 
 // LatoBook
-$latoBook: 'LatoBook', helvetica, arial, sans-serif;
+$latoBook: 'Lato', helvetica, arial, sans-serif;
 
 // LatoSemiBold
-$latoBold: 'LatoBold', helvetica, arial, sans-serif;
+$latoBold: 'Lato', helvetica, arial, sans-serif;
 
 // merriweatherRegular
-$merriweatherRegular: 'MerriweatherRegular', gerogia, serif;
+$merriweatherRegular: 'Merriweather', gerogia, serif;
 
 /* Global type styles */
 
@@ -27,6 +27,7 @@ $merriweatherRegular: 'MerriweatherRegular', gerogia, serif;
     font-size: 21px;
     color: $ship-grey;
     margin-top: 0;
+    font-weight: 400;
 }
 
 .copy {

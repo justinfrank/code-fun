@@ -341,18 +341,19 @@
 }
 /* Global type styles */
 .primary-text {
-  font-family: "LatoBold", helvetica, arial, sans-serif;
+  font-family: "Lato", helvetica, arial, sans-serif;
 }
 
 .tertiaryType {
-  font-family: "LatoBook", helvetica, arial, sans-serif;
+  font-family: "Lato", helvetica, arial, sans-serif;
   font-size: 21px;
   color: #4D4D4E;
   margin-top: 0;
+  font-weight: 400;
 }
 
 .copy {
-  font-family: "MerriweatherRegular", gerogia, serif;
+  font-family: "Merriweather", gerogia, serif;
   color: #737374;
   font-size: 14px;
 }
@@ -364,7 +365,7 @@
  *    user zoom.
  */
 html {
-  font-family: "LatoBook", helvetica, arial, sans-serif;
+  font-family: "Lato", helvetica, arial, sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -756,11 +757,12 @@ th {
 }
 
 a {
-  font-family: "LatoBold", helvetica, arial, sans-serif;
+  font-family: "Lato", helvetica, arial, sans-serif;
   color: #DF7241;
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: .1em;
+  font-weight: 700;
   -webkit-transition: color 0.2s ease-in-out;
   -moz-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
@@ -829,7 +831,7 @@ html {
 
 .post-date {
   color: #a6a6a7;
-  font-family: "LatoBold", helvetica, arial, sans-serif;
+  font-family: "Lato", helvetica, arial, sans-serif;
   font-size: 14px;
   letter-spacing: .1em;
   margin-bottom: 10px;
